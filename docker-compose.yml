@@ -1,0 +1,10 @@
+# docker-compose.yml
+
+version: '3'
+services:
+  streamlit-app:
+    image: agilisys/blue-badge-toolkit:1.0
+    container_name:  Blue-Badge-Toolkit
+    restart: always
+    ports:
+      - "8501:8501"
